@@ -67,7 +67,7 @@ def main():
             remove_task(tasks)
             save_tasks(tasks)
         elif choice == "4":
-            print("Goodbye!")
+            print("Exited!")
             break
         else:
             print("Invalid option, try again.")
